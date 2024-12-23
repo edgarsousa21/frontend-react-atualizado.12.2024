@@ -1,0 +1,172 @@
+=======> O QUE É REACT ?
+
+React é uma biblioteca JavaScript para a criação de interfaces para o usuário.
+
+A principal função do React é organizar o conteúdo que será mostrado ao usuário.
+
+Mesmo podendo ser usado de outras formas (veremos mais adiante), o principal uso do React hoje em dia 
+
+é para criar sites, ou interfaces web.
+
+O React é uma das principais ferramentas do mercado para a criação de SPA's.
+
+SPA's (Single Page Application) são aplicações Web(sites) que tem como objetivo trazer uma experiência similar 
+
+a de um programa de computador para o usuário (sem os reloads e etc comuns aos sites).
+
+
+
+=======> HISTÓRIA DO REACT
+
+Essa biblioteca surgiu em 2011, no Facebook, e passou a ser utilizada na interface do mural de notícias da rede social.
+
+No ano seguinte, passou a integrar também a área de tecnologia do Instagram e de várias outras ferramentas da empresa.
+
+Em 2013, o código foi aberto para a comunidade, o que colaborou para sua grande popularização.
+
+O React tem sido usado por grandes companhias ao redor do mundo.
+
+Algumas delas: Netflix, Airbnb, American Express, Facebook, WhatsApp, eBay, Instagram, Globo, Hotmart, iFood dentre outras.
+
+
+=======> COMO FUNCIONA O REACT ?
+
+Para entender como o React funciona é preciso conhecer a estrutura de uma página HTML e de que forma ela é manipulada. 
+
+A página HTML é formada por uma série de tags que representam cada elemento de um conteúdo. 
+
+Já o DOM Document Object Model - é uma representação estruturada de todos os elementos da página e é utilizado para facilitar 
+
+as alterações nesses elementos.
+
+O React cria um DOM Virtual para permitir a manipulação dos elementos da página. Basicamente, ele realiza uma cópia do DOM em memória, 
+
+faz as alterações necessárias conforme a determinação das instruções programadas e atualiza o navegador de forma inteligente. 
+
+Esse processo oferece mais agilidade na manipulação das páginas.
+
+
+FRONT END REACT
+
+
+01 - Introdução
+
+02 - Introdução ao React
+
+03 - Yarn
+
+    Instalar o Yarn:
+    - npm install --global yarn
+
+04 - Iniciando Projeto React
+
+    Documentação React:
+    - https://pt-br.react.dev/learn/start-a-new-react-project
+
+    Ferramenta para criar projeto:
+    - https://vite.dev/
+    Comando para criar:
+    - com yarn: "yarn create vite" // com npm: "npm create vite@latest"
+    
+
+05 - Estrutura de um projeto React
+
+06 - Materiais de apoio
+
+07 - alinhamento de expectativas
+
+08 - JSX e a estrutura de um componente React
+
+    - https://pt-br.legacy.reactjs.org/docs/react-component.html
+
+09 - CSS no React
+
+    BIBLIOTECAS CSS:
+    - https://www.stitches.dev -> npm install @stitches/react
+    - https://www.sass-lang.com
+    - https://www.tailwindui.com
+    - https://www.styled-components.com  -> yarn add styled-components
+
+
+10 - Estilos globais no React
+
+11 - Iniciando a criação da tela de Cadastro de Usuários
+
+12 - Estilizando a tela de Cadastro de Usuários
+
+13 - Organizando o Projeto
+
+14 - Useref
+
+    Hooks:
+    - https://legacy.reactjs.org/docs/hooks-intro.html
+
+15 - Conectando com nossa API
+
+    - yarn add axios
+
+16 - Cors
+
+    - npm install cors (no Backend)
+
+17 - Entendendo o conceito de rotas no React
+
+    - https://reactrouter.com/en/main => yarn add react-router-dom
+
+    Para instalar a versão 5, use o seguinte comando:
+        - yarn add react-router-dom@5
+
+    NA VERSÃO "react-router-dom@6" MUDA ALGUNS COMANDOS:
+        Switch => Routes
+        useHistory => UseNavigate
+        history => navigate ( Não precisa usar o push(); )
+        component => element
+        exact => Não é mais utilizado
+
+    obs: yarn add react-router-dom@latest => última Versão
+
+18 - Entendendo o conceito de componentes no React
+
+19 - Propriedades dos Componentes
+
+20 - Proptypes
+
+    - https://www.npmjs.com/package/prop-types => yarn add prop-types
+
+21 - Alterando props dos componentes
+
+22 - React Router DOM
+
+23 - useEffect
+
+24 - useState
+
+25 - Aula Chave
+
+26 - Estilizando tela de Listagem de Usuários
+
+    - https://avatar-placeholder.iran.liara.run/
+
+27 - Deletando Usuários
+
+
+
+
+
+
+
+
+
+
+
+  Vanilla
+    Vue
+    React
+    Preact
+    Lit
+    Svelte
+    Solid
+    Qwik
+    Angular
+    Others
+
